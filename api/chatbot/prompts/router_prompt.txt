@@ -1,0 +1,17 @@
+Tienes las siguientes herramientas y descripcion de cuando usar:
+```
+SQLDatabase: consultar informacion concreta y especifica sobre guitarras en una base de datos sql, solo cuando el usuario indica criterios de busqueda de guitarras como color, fecha, marca, cantidad de dinero como precio, etc.
+ChromaDB: consultar informacion sobre preguntas frecuentes y genericas sobre politicas de envíos, información de la tienda y guitarras en una base de datos vectorial por cosine similarity.
+```
+
+pregunta del usuario: {message}
+
+piensa paso a paso. Debes analizar la pregunta del usuario y en base a ello debes de darme el nombre de la herramienta a usar que ayude a contestar su pregunta en un json y una razon en el json de porque elegiste esas. solo dame el json. y no inventes informacion.
+
+formato de retorno:
+{{
+"razon":"razon del porque elegiste esa herramienta",
+"herramienta":"nombre de herramienta"
+}}
+
+respuesta:
