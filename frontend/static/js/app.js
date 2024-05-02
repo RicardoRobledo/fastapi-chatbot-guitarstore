@@ -76,7 +76,7 @@ function get_message(){
 }
 
 async function send_message(message, signal){
-  const url = 'http://127.0.0.1:8000/api/v1/chatbot/msg';
+  const url = 'https://fastapi-chatbot-guitarstore.onrender.com/api/v1/chatbot/msg';
   //let url = '';
   const response = await fetch(url, {
     signal: signal,
