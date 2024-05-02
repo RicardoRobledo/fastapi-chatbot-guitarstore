@@ -24,7 +24,7 @@ dataclasses-json==0.6.4
 Deprecated==1.2.14
 dnspython==2.6.1
 exceptiongroup==1.2.0
-fastapi==0.103.2
+fastapi==0.85.1
 filelock==3.13.4
 flatbuffers==24.3.25
 frozenlist==1.4.1
